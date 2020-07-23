@@ -1,0 +1,222 @@
+body {
+ width: 100%;
+ margin: 0!important;
+ padding: 0!important;
+ height:100%;
+ background: rgba(204,204,204,1);
+}
+
+a {
+ text-decoration: none;
+}
+
+.hide {
+ text-indent: -998em;
+ height: 0px;
+}
+
+h1 {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-size: 44px;
+ color: #edecec;
+ line-height: 80px;
+}
+
+#wrapper {
+ min-height: 100%;
+ width: 100%;
+ margin: 0!important;
+ padding: 0!important;
+ position: relative;
+}
+
+.menu {
+ display: table;
+ width: 100%;
+ background: rgba(153,0,51,1);
+}
+
+#pasek_nawi {
+ height: 80px;
+ background: rgba(153,0,51,1);
+ border: none;
+}
+
+
+#ul_nawigacja a {
+ display: inline;
+ height: 80px;
+ font-size: 18px;
+ margin-left: 10px;
+ line-height: 80px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ background: none;
+ color: #fff;
+}
+
+.navbar-toggle {
+ margin-top: 25px;
+}
+
+.content > div {
+ text-align: center;
+}
+
+.content {
+ padding-bottom:50px;
+ padding-top: 80px;
+}
+
+footer {
+ background: rgba(51,51,51,1);
+ width:100%;
+ height: 50px;
+ position:absolute;
+ bottom:0;
+ left:0;
+ line-height: 50px;
+ text-align: center;
+ color: #fff;
+}
+
+footer p {
+ margin-bottom: 0px;
+ margin-top: 0px;
+}
+
+.logowanie {
+ margin-top: 50px;
+}
+
+label {
+ width: 100%;
+}
+
+.blad {
+ color: red;
+}
+
+.ok {
+ color: green;
+}
+
+.statystyki ul {
+ list-style: none;
+ padding-left: 0px;
+}
+
+.statystyki ul li > img {
+ float: left;
+}
+
+.statystyki ul li {
+ width: 20%;
+ margin: 0 auto;
+ margin-top: 20px;
+ position: relative;
+ font-size: 22px;
+}
+
+.statystyki ul li button {
+ background: none;
+ border: none;
+ float: right;
+ position: absolute;
+ right: -20px;
+ bottom: 2px;
+}
+
+#countdown {
+ font-size: 50px;
+}
+
+.hours {
+ width: 100px;
+ background: silver;
+ border-radius: 5px;
+ text-align: center;
+}
+
+.praca button {
+ width: 70px;
+ border-radius: 5px;
+ margin-top: 10px;
+}
+
+.item {
+ height: 100px;
+ border: 1px #ccc solid;
+ margin-bottom: 30px;
+ margin-top: 10px;
+}
+
+.item img {
+ float: right;
+ margin-right: 20px;
+}
+
+.item button {
+ width: 70%;
+ height: 50px;
+ border-radius: 5px;
+ text-align: center;
+ border: none;
+ background: rgba(153,0,51,1);
+ color: #fff;
+ font-size: 18px;
+ float: left;
+ margin-top: 25px;
+}
+
+.user_list {
+ list-style: none;
+}
+
+.user_list li {
+ text-align: left;
+ margin-top: 25px;
+ border-bottom: 2px solid black;
+ font-size: 20px;
+}
+
+.user_list li button {
+ float: right;
+ position: relative;
+ bottom: 3px;
+ font-size: 16px;
+}
+
+.ranking .user_list li {
+ text-align: center;
+}
+
+.czcionka{
+ font-family: 'Press Start 2P', cursive;
+}
+
+.error, .red{
+ color:red;
+ margin-top: 2px;
+ margin-bottom: 2px;
+}
+
+.zapomnialem{
+ margin-top: 25px;
+ font-size: 30px;
+}
+
+a:link {
+ color: black;
+ text-decoration: none;
+}
+
+a:visited {
+ color: black;
+ text-decoration: none;
+}
+
+a:hover{
+ color: rgba(81, 81, 81, 0.78);
+}

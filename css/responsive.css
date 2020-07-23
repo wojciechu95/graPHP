@@ -1,0 +1,47 @@
+@media(max-width: 767px){
+
+#ul_nawigacja a {
+    display: block;
+    height: 50px;
+    margin-left: 10px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    background: rgba(153, 0, 51, 1)
+}
+#ul_nawigacja a:hover {
+   background: rgb(180, 73, 105)
+}
+
+#moje-menu {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .statystyki ul li {
+    width: 50%;
+    font-size: 32px;
+}
+
+.statystyki ul li > img {
+    margin-top: 5px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+.statystyki ul li {
+    width: 40%;
+}
+}
+
+@media(max-width: 470px){
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+

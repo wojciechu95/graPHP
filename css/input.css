@@ -1,0 +1,242 @@
+.g-recaptcha{
+    margin-left: 32%;
+    margin-top: 25px
+}
+
+input[type=text], input[type=password], input[type=email]
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #929a99;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus
+{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+    box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+    border: 2px solid #a5cda5;
+    background-color: #e9f3e9;
+    color: #428c42;
+}
+
+
+input.invalid, textarea.invalid{
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+input.valid, textarea.valid{
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+input[type=submit]
+{
+    width: 250px;
+    background-color: #36b03c;
+    font-size:20px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+input[type=submit]:focus{
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+    box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+
+{
+    background-color: #0f0;
+}
+
+#myBtn{
+    width: 350px;
+    background-color: #2e4bb0;
+    font-size:20px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+#myBtn:focus{
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+    box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+#myBtn:hover{
+    background-color: #837eff;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #428C42;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #428C42;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #428C42;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #428C42;
+}
+
+.kol{
+    width: 100%;
+}
+
+.kol1, .kol2{
+    float: left;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.kol1{
+    margin-right: 15px;
+}
+
+/* Style dla popup */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.formularz {
+    position: relative;
+    background-color: #ffffff;
+    display: table;
+    margin: 10% auto;
+    width: 900px;
+    padding: 20px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Animacja */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* przycisk zamknięcia */
+.close {
+
+    position: absolute;
+    display: table;
+    text-align: center;
+    right: 15px;
+    top: -5px;
+    font-size: 45px;
+    font-weight: bold;
+    width: 20px;
+    z-index: 1;
+    background-color: rgba(188, 188, 188, 0);
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(26, 24, 29);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Koniec stylu popup */
+
+/* Style dla responsywności */
+@media only screen and (max-width: 1000px) {
+    .formularz{
+        width: 100%;
+    }
+
+    .modal {
+        padding-top: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .formularz{
+        margin: 85px auto;
+        height: 100%;
+    }
+
+    .g-recaptcha{
+        margin-left: 30%;
+        margin-top: 25px
+    }
+
+    .kol1, .kol2, .kol, input[name='register']{
+        width: 100%;
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+
+    .g-recaptcha{
+        margin-left: 25%;
+        margin-top: 25px
+    }
+
+}

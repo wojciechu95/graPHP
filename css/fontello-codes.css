@@ -1,0 +1,7 @@
+
+.icon-menu-alt:before { content: '\e800'; } /* '' */
+.icon-menu:before { content: '\e801'; } /* '' */
+.icon-hand:before { content: '\e802'; } /* '' */
+.icon-mail:before { content: '\e805'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-user:before { content: '\f234'; } /* '' */
